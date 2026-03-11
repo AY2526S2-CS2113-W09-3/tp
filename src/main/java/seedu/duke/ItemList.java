@@ -76,9 +76,9 @@ public class ItemList {
     /**
      * *Returns the underlying ArrayList of tasks.
      *
-     * @return The task list.
+     * @return The item list.
      */
-    public ArrayList<Item> getTasks() {
+    public ArrayList<Item> getItems() {
         return items;
     }
 }
