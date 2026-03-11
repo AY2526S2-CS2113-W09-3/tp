@@ -30,8 +30,10 @@ public class Item {
      * @return "X" if done, " " if not done.
      */
     public int getQuantity() {
-        return quantity;
+        return this.quantity;
     }
+
+
 
     /**
      * Returns the task in save file format.
