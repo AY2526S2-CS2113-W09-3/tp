@@ -9,8 +9,12 @@ public class InventoryBro {
      */
     public static void main(String[] args) {
         System.out.println("InventoryBRO");
-        System.out.println("Enter something:");
         Scanner in = new Scanner(System.in);
-        System.out.println("Test: " + in.nextLine());
+        ItemList items = new ItemList();
+
+        while (in.hasNextLine()) {
+            String input = in.nextLine();
+            Parser.parse(input, items);
+        }
     }
 }

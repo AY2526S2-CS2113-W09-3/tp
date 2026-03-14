@@ -1,3 +1,2 @@
 InventoryBRO
-Enter something:
-Test: input
+Invalid command, please try add, delete, edit, transact, list, exit
