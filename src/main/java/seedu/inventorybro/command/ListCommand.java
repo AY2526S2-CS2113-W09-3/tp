@@ -33,7 +33,7 @@ public class ListCommand implements Command {
     }
 
     /**
-     * Validates the list command input and prints all items in the inventory.
+     * Validates the list command input and prints all inventory items or items of a specified category.
      * If a preferred order is specified, the items are sorted and printed in that order.
      *
      * @param items      The inventory item list to display.
